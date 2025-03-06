@@ -11,7 +11,7 @@ spatial indexes in GIS-ready formats to help determine if the same data are also
 or folder naming may provide clues to other sources of data. Simply put, it takes effort to rename the 1000s of files common with
 lidar acquisitions. A key part of the process to detect duplicate data (data held in more than one location or server), is the use of 
 file metadata. Namely, bounding boxes, collection date information, and GPS time for a sample of individual points. USGS maintains the
-work unit extent spatial metadata (WESM) dictionary for their data. While this is project (or work unit) level metadata, it does contain
+work unit extent spatial metadata (WESM)[https://www.usgs.gov/ngp-standards-and-specifications/wesm-data-dictionary] dictionary for their data. While this is project (or work unit) level metadata, it does contain
 information that can help match data held in Forest Service storage to project available from USGS-3DEP. USGS also produces a tile-level
 index (TESM) but I have found this to have errors and incomplete data (~2022-2024). The TESM index may be better now.
 
