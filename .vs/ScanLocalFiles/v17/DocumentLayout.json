@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bmcgaughey\\source\\repos\\ScanLocalFiles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D894748-D8A8-4F8E-9407-5D06D59BE5AF}|ScanLocalFiles\\ScanLocalFiles.vcxproj|C:\\Users\\bmcgaughey\\source\\repos\\ScanLocalFiles\\ScanLocalFiles\\ScanLocalFiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D894748-D8A8-4F8E-9407-5D06D59BE5AF}|ScanLocalFiles\\ScanLocalFiles.vcxproj|solutionrelative:ScanLocalFiles\\ScanLocalFiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScanLocalFiles.cpp",
+              "DocumentMoniker": "C:\\Users\\bmcgaughey\\source\\repos\\ScanLocalFiles\\ScanLocalFiles\\ScanLocalFiles.cpp",
+              "RelativeDocumentMoniker": "ScanLocalFiles\\ScanLocalFiles.cpp",
+              "ToolTip": "C:\\Users\\bmcgaughey\\source\\repos\\ScanLocalFiles\\ScanLocalFiles\\ScanLocalFiles.cpp",
+              "RelativeToolTip": "ScanLocalFiles\\ScanLocalFiles.cpp",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T20:41:03.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
