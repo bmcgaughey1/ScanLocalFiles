@@ -1,0 +1,9 @@
+h:/FUSIONTestData\ground
+h:/FUSIONTestData\normalized
+h:/FUSIONTestData\normalized\COPC
+h:/FUSIONTestData\normalized\COPC\subset
+h:/FUSIONTestData\TestOutput
+h:/FUSIONTestData\TestOutput\TreeClips
+h:/FUSIONTestData\TestOutput2
+h:/FUSIONTestData\TestOutput2\TreeClips
+h:/FUSIONTestData

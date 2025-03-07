@@ -32,8 +32,8 @@ int main(void)
     // output file...csv format for simplicity
 
     // "*.laz|*.las|*.lda|ept.json|*.copc|*.copc.laz"
-    std::string rootFolder = "T:\\FS\\Reference\\RSImagery\\ProcessedData\\r06\\R06_DRM_Deliverables\\PointCloud";
-    //std::string rootFolder = __argv[1];
+    //std::string rootFolder = "T:\\FS\\Reference\\RSImagery\\ProcessedData\\r06\\R06_DRM_Deliverables\\PointCloud";
+    std::string rootFolder = __argv[1];
     std::string pattern = __argv[2];            // "*.laz|*.las";
     std::string outputFileName = __argv[3];
     int updateEvery = std::stoi(__argv[4]);
@@ -45,6 +45,9 @@ int main(void)
     std::cout << "Scanning folders in " << rootFolder << "...";
     std::vector<std::string> folders;
     folders = get_directories(rootFolder, updateEvery);
+
+    // add rootFolder to end of list
+    folders.push_back(rootFolder);
 
     // write folders
     std::ofstream folderFile("Folders.txt"); // Open file in write mode
