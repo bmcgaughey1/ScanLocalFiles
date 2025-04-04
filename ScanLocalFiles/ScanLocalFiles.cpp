@@ -21,10 +21,15 @@ std::vector<std::string> splitString(const std::string& str, const char delimite
 
 int main(void)
 {
-    /*if (__argc < 5) {
+    if (__argc < 5) {
         std::cout << "Syntax:\nScanLocalFiles RootFolder Patterns OutputFile UpdateFrequency" << std::endl;
+        std::cout << "   RootFolder shoujld not include a trailing slash." << std::endl;
+        std::cout << "   Patterns are wildcard templates separated by |. (*.las|*.laz|*.zlas)." << std::endl;
+        std::cout << "     Enclose pattern stgring in quotes when running from command line." << std::endl;
+        std::cout << "   OutputFile can be on a local or remote drive." << std::endl;
+        std::cout << "   UpdateFrequency is the number of folders processed between status messages." << std::endl;
         return(1);
-    }*/
+    }
 
     // read command line args and put in variables
     // single root folder
@@ -34,7 +39,7 @@ int main(void)
     // "*.laz|*.las|*.lda|ept.json|*.copc|*.copc.laz"
     //std::string rootFolder = "T:\\FS\\Reference\\RSImagery\\ProcessedData\\r06\\R06_DRM_Deliverables\\PointCloud";
     std::string rootFolder = __argv[1];
-    std::string pattern = __argv[2];            // "*.laz|*.las";
+    std::string pattern = __argv[2];            // "*.laz|*.las|*.zlas";
     std::string outputFileName = __argv[3];
     int updateEvery = std::stoi(__argv[4]);
 
